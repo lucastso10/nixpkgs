@@ -1,6 +1,13 @@
-{ lib, stdenv, fetchFromGitHub, makeDesktopItem, fetchurl
-# Build depends
-, cmake, qt6, zlib
+{
+  lib,
+  stdenv,
+  fetchFromGitHub,
+  makeDesktopItem,
+  fetchurl,
+  # Build depends
+  cmake,
+  qt6,
+  zlib,
 }:
 
 stdenv.mkDerivation rec {
